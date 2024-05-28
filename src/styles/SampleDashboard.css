@@ -1,0 +1,37 @@
+.customize-class-name {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-rows: auto;
+  grid-template-areas:
+    "header header header"
+    "first second third"
+    "first-footer second-footer third-footer";
+}
+
+.header {
+  grid-area: header;
+}
+
+.first {
+  grid-area: first;
+}
+
+.second {
+  grid-area: second;
+}
+
+.third {
+  grid-area: third;
+}
+
+.first-footer {
+  grid-area: first-footer;
+}
+
+.second-footer {
+  grid-area: second-footer;
+}
+
+.third-footer {
+  grid-area: third-footer;
+}

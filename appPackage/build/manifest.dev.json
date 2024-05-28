@@ -1,0 +1,47 @@
+{
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.16/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.16",
+    "version": "1.0.0",
+    "id": "fb751b16-c02e-4974-89a7-3932265d65cf",
+    "packageName": "com.microsoft.teams.extension",
+    "developer": {
+        "name": "Teams App, Inc.",
+        "websiteUrl": "https://tab01e562.z6.web.core.windows.net",
+        "privacyUrl": "https://tab01e562.z6.web.core.windows.net/index.html#/privacy",
+        "termsOfUseUrl": "https://tab01e562.z6.web.core.windows.net/index.html#/termsofuse"
+    },
+    "icons": {
+        "color": "color.png",
+        "outline": "outline.png"
+    },
+    "name": {
+        "short": "viosimosdev",
+        "full": "Full name for viosimos"
+    },
+    "description": {
+        "short": "Short description of viosimos",
+        "full": "Full description of viosimos"
+    },
+    "accentColor": "#FFFFFF",
+    "bots": [],
+    "composeExtensions": [],
+    "configurableTabs": [],
+    "staticTabs": [
+        {
+            "entityId": "index0",
+            "name": "Dashboard",
+            "contentUrl": "https://tab01e562.z6.web.core.windows.net/index.html#/tab",
+            "websiteUrl": "https://tab01e562.z6.web.core.windows.net/index.html#/tab",
+            "scopes": [
+                "personal"
+            ]
+        }
+    ],
+    "permissions": [
+        "identity",
+        "messageTeamMembers"
+    ],
+    "validDomains": [
+        "tab01e562.z6.web.core.windows.net"
+    ]
+}
